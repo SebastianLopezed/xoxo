@@ -1,0 +1,197 @@
+* {
+  margin: 0%;
+  padding: 0%; }
+
+body {
+  background-image: url(../img/FONDO2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+h1 {
+  color: white; }
+
+h2 {
+  margin: 1rem;
+  color: #e9bf37; }
+
+p {
+  color: white; }
+
+.divNormal {
+  align-items: center;
+  size: 200px;
+  margin: 0%; }
+  .divNormal p {
+    color: rgba(255, 255, 255, 0.746);
+    font-size: 15px;
+    margin: 2rem; }
+
+.container-lg {
+  margin: 1rem;
+  font-family: 'Roboto'sans-serif; }
+  .container-lg p {
+    margin: 2rem;
+    font-size: 13px;
+    color: white; }
+
+.img-fluid {
+  max-width: 90%; }
+
+.card-img-filter {
+  filter: brightness(0.5); }
+
+.card {
+  transition-duration: 0.6s;
+  clip-path: polygon(50% 0, 100% 0, 100% 50%, 100% 100%, 50% 100%, 0 100%, 0 50%, 0 0); }
+  .card p {
+    margin: 0%;
+    font-size: 12px; }
+  .card h4 {
+    font-size: 12px; }
+
+.card-effect:hover .card {
+  clip-path: polygon(50% 0, 50% 0, 100% 50%, 100% 50%, 50% 100%, 50% 100%, 0 50%, 0 50%); }
+
+.card-img-overlay {
+  transition-duration: 0.6s; }
+
+.card-effect:hover .card-img-overlay {
+  transform: scale(0.9); }
+
+.col12 p {
+  margin-bottom: 2rem; }
+
+.embed-responsive img {
+  size: 200px; }
+
+/*productos*/
+#productos .col-lg-4 {
+  margin: o !important;
+  padding: 25px; }
+
+#productos img {
+  width: 100%;
+  height: 250px; }
+
+footer {
+  margin-top: 2rem; }
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-image: url(../img/FONDO2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; }
+  h1 {
+    color: white; }
+  h2 {
+    font-size: 50px;
+    margin: 1rem;
+    color: #e9bf37; }
+  p {
+    color: white; }
+  .divNormal p {
+    font-size: 35px; }
+  .mensaje {
+    margin: 1rem; }
+  .container-lg {
+    margin: 1rem;
+    font-family: 'Roboto'sans-serif; }
+    .container-lg img {
+      padding-left: 100px;
+      align-items: center; }
+    .container-lg p {
+      margin: 1rem;
+      font-size: 25px;
+      color: white; }
+  .card-img-filter {
+    filter: brightness(0.5); }
+  .card {
+    transition-duration: 0.6s;
+    clip-path: polygon(50% 0, 100% 0, 100% 50%, 100% 100%, 50% 100%, 0 100%, 0 50%, 0 0); }
+    .card p {
+      margin: 0%;
+      font-size: 22px; }
+    .card h4 {
+      font-size: 28px; }
+  .card-effect:hover .card {
+    clip-path: polygon(50% 0, 50% 0, 100% 50%, 100% 50%, 50% 100%, 50% 100%, 0 50%, 0 50%); }
+  .card-img-overlay {
+    transition-duration: 0.6s; }
+  .card-effect:hover .card-img-overlay {
+    transform: scale(0.9); }
+  .col12 p {
+    margin-bottom: 2rem; }
+  /*productos*/
+  #productos .col-lg-4 {
+    margin: o !important;
+    padding: 25px; }
+  #productos img {
+    width: 100%;
+    height: 250px; }
+  footer {
+    margin-top: 2rem; }
+  iframe {
+    width: 500px;
+    height: 500px; } }
+
+@media only screen and (min-width: 1024px) {
+  body {
+    background-image: url(../img/FONDO2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; }
+  h1 {
+    color: white; }
+  h2 {
+    font-size: 60px;
+    margin: 2rem;
+    color: #e9bf37; }
+  p {
+    color: white; }
+  .divNormal {
+    align-items: center;
+    size: 200px;
+    margin: 0%; }
+    .divNormal p {
+      color: rgba(255, 255, 255, 0.746);
+      font-size: 35px;
+      margin: 2rem; }
+  .mensaje {
+    margin: 2rem; }
+  .container-lg {
+    margin: 1rem;
+    font-family: 'Roboto'sans-serif; }
+    .container-lg img {
+      padding-left: 300px;
+      align-items: center; }
+    .container-lg p {
+      align-items: center;
+      margin: 2rem;
+      font-size: 25px;
+      color: white; }
+  .card-img-filter {
+    filter: brightness(0.5); }
+  .card {
+    transition-duration: 0.6s;
+    clip-path: polygon(50% 0, 100% 0, 100% 50%, 100% 100%, 50% 100%, 0 100%, 0 50%, 0 0); }
+    .card p {
+      margin: 0%;
+      font-size: 22px; }
+    .card h4 {
+      font-size: 28px; }
+  .card-effect:hover .card {
+    clip-path: polygon(50% 0, 50% 0, 100% 50%, 100% 50%, 50% 100%, 50% 100%, 0 50%, 0 50%); }
+  .card-img-overlay {
+    transition-duration: 0.6s; }
+  .card-effect:hover .card-img-overlay {
+    transform: scale(0.9); }
+  .col12 p {
+    margin-bottom: 2rem; }
+  /*productos*/
+  #productos .col-lg-4 {
+    margin: o !important;
+    padding: 25px; }
+  #productos img {
+    width: 100%;
+    height: 250px; }
+  footer {
+    margin-top: 2rem; } }
